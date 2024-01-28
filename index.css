@@ -9,7 +9,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: lightblue;
+  background-color: rgb(144, 199, 218);
 }
 
 .input {
@@ -55,4 +55,8 @@ body {
 
 .sum {
   grid-column: 4 / span 1;
+}
+footer {
+  position: absolute;
+  bottom: 20px;
 }
