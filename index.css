@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.input {
+  width: 98%;
+  margin: 5px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.container {
+  display: grid;
+  grid-auto-rows: minmax(80px, auto);
+  gap: 5px;
+
+  background-color: rgb(179, 179, 179);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 20px rgb(216, 213, 213);
+}
+
+.container button {
+  margin: 7px;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.numbers-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+}
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+}
+.equal button {
+  display: grid;
+  cursor: pointer;
+}
+
+.sum {
+  grid-column: 4 / span 1;
+}
